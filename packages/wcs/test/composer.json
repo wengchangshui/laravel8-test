@@ -1,0 +1,12 @@
+{
+    "name": "vendor/package-test",
+    "description": "this is test package",
+    "type": "library",
+    "authors": [
+        {
+            "name": "wengchangshui",
+            "email": "723944127@qq.com"
+        }
+    ],
+    "require": {}
+}
