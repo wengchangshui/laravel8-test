@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6677bcaf2c191c88b078c63f0cd4fd42",
+    "content-hash": "e1cba9ec3d4e8537c3d16bd2ce8c8d3f",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -6164,6 +6164,47 @@
             "time": "2020-07-13T06:12:54+00:00"
         },
         {
+            "name": "vendor/package-test",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wengchangshui/packagesTest.git",
+                "reference": "1b29b86912650c30e1a55fb3eda837a1a22a1f18"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wengchangshui/packagesTest/zipball/1b29b86912650c30e1a55fb3eda837a1a22a1f18",
+                "reference": "1b29b86912650c30e1a55fb3eda837a1a22a1f18",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Wcs\\test\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "wengchangshui",
+                    "email": "723944127@qq.com"
+                }
+            ],
+            "description": "this is test package",
+            "support": {
+                "issues": "https://github.com/wengchangshui/packagesTest/issues",
+                "source": "https://github.com/wengchangshui/packagesTest/tree/master"
+            },
+            "time": "2021-10-09T08:04:37+00:00"
+        },
+        {
             "name": "vlucas/phpdotenv",
             "version": "v5.3.0",
             "source": {
@@ -9137,7 +9178,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "vendor/package-test": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

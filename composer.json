@@ -14,7 +14,8 @@
         "laravel/sanctum": "^2.11",
         "laravel/scout": "8.6.1",
         "laravel/tinker": "^2.5",
-        "tamayo/laravel-scout-elastic": "^8.0"
+        "tamayo/laravel-scout-elastic": "^8.0",
+        "vendor/package-test": "dev-master"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
@@ -29,8 +30,7 @@
             "App\\": "app/",
             "Order\\": "_order/",
             "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/",
-            "Wcs\\test\\": "/src"
+            "Database\\Seeders\\": "database/seeders/"
         }
     },
     "autoload-dev": {

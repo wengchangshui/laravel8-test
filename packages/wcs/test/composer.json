@@ -1,5 +1,5 @@
 {
-    "name": "vendor/package-test",
+    "name": "packages/package-test",
     "description": "this is test package",
     "type": "library",
     "authors": [
@@ -9,8 +9,6 @@
         }
     ],
     "require": {
-        "ext-json": "*",
-        "lcobucci/jwt": "3.3.3"
     },
     "autoload": {
         "psr-4": {
