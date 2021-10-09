@@ -8,5 +8,13 @@
             "email": "723944127@qq.com"
         }
     ],
-    "require": {}
+    "require": {
+        "ext-json": "*",
+        "lcobucci/jwt": "3.3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wcs\\test\\": "src/"
+        }
+    }
 }
