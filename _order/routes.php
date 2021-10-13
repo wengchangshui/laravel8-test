@@ -11,11 +11,14 @@
 
 use Illuminate\Support\Facades\Route;
 use Order\Controllers\OrderController;
+use Order\Controllers\PostController;
 
-Route::group(['prefix' => 'index','middleware' => 'checkUser'], function () {
+Route::group(['prefix' => 'index'], function () {
     Route::get('index', function () {
         return 'aa';
-    })->withoutmiddleware('checkUser');
+    });
     Route::get('index2', [OrderController::class, 'index'])->name('index.index2');
     Route::get('test', [OrderController::class, 'test'])->name('index.test');
+    Route::post('testJob', [OrderController::class, 'testJob'])->name('index.testJob');
 });
+
